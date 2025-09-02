@@ -2,91 +2,184 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	 <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
-	
-    <script src="script.js"></script>
-	
-<!-- Write here -->
-    <header class="head">
-        <h2>Pragadeeshwari </h2>
-        <nav class="mainnav">
-            <ul class="topul">
-                <li><a href="#">Home</a></li>
-                <li><a href="#abt">About</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#cont">Contact</a></li>
+    <header class="header">
+        <h2>Pragadeeshwari R R</h2>
+        <nav>
+            <ul>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#skills'>Skills</a></li>
+                <li><a href='#projects'>Projects</a></li>
+                <li><a href='#experience'>Experience</a></li>
+                <li><a href='#education'>Education</a></li>
+                <li><a href='#contact'>Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="intro">
-            <div class="group">
-               <h2>Hi, Its me <br><span class="unique">Pragadeeshwari</span></h2>
-               <p>A Computer Science Engineering student and an enthusiastic front-end developer. I’m passionate about learning and exploring new technologies to enhance my skills. With a strong interest in coding and web development.</p>
+        <div id='home' class="home">
+            <h1 class="heading">Pragadeeshwari R R</h1>
+            <h2 id="passion">Aspiring AI/ML Engineer</h2>
+            <p class="para">Passionate about creating AI solutions that impact everyday life. Skilled in Python, Data Analysis, and Visualization. Exploring Machine Learning, Deep Learning, and Data Science. Strong Foundation in problem-solving and algorithms. Committed to continuous learning and innovation in AI.</p>
+            <div class="btns">
+                <button class="btn1">View My Work</button>
+                <button class="btn2">Download Resume</button>
             </div>
-            <img src="IMG_20250127_105442.jpg" width="300" height="auto" alt="Picture" loading="lazy">
         </div>
-        <section id="abt">
-            <h1>About</h1>
-            <div class="about-para">
-                 <p>A curious and dedicated CSE student with a passion for front-end development. I thrive on turning creative ideas into interactive, user-friendly designs that inspire and engage. Constantly learning and exploring, I aim to bridge the gap between aesthetics and functionality. My goal is to craft meaningful digital experiences that leave a lasting impact.</p>
-                 <img src="IMG_20250127_110334.jpg" width="300" height="auto" alt="picture" loading="lazy">
-             </div>
-        </section>
-        <section id="skill">
-            <h1>Skills</h1>
-            <div class ="lang">
-               <div class="html">
-                   <h3>...HTML...</h3>
-                   <p>I have a strong foundation in HTML, focusing on creating structured and semantic web pages. I am skilled in building forms, tables, and layouts while ensuring accessibility standards. My expertise includes using semantic tags to enhance SEO and maintain clean, readable code.</p>
-               </div>
-               <div class="css">
-                  <h3>...CSS...</h3>
-                  <p>I excel in styling web pages using CSS, creating visually appealing and responsive designs. My skills include working with Flexbox, Grid, and media queries to ensure layouts adapt seamlessly across devices. I also enjoy adding animations and transitions to enhance user experience.</p>
-              </div>
-              <div class="js">
-                  <h3>...JavaScript...</h3>
-                  <p>I have a solid understanding of JavaScript for adding interactivity and dynamic functionality to websites. My skills include DOM manipulation, handling events, and writing clean, modular code. I am also familiar with ES6+ features to improve efficiency and readability in development.</p>
-              </div>
-              <div class="py">
-                 <h3>...Python...</h3>
-                 <p>I have a strong grasp of Python, utilizing it for scripting, automation, and data processing tasks. I am familiar with Python libraries such as NumPy and Pandas for data manipulation and analysis. My focus is on writing clean, efficient code for problem-solving and backend development.</p>
-              </div>
-              <div class="c">
-                  <h3>...C...</h3>
-                  <p>I have a solid understanding of C programming, focusing on problem-solving and algorithm implementation. My experience includes using C for system-level programming, data structures, and memory management. I am proficient in writing efficient, low-level code while optimizing performance.</p>
-              </div>
-              <div class="java">
-                  <h3>...Java...</h3>
-                  <p>I have a good understanding of Java, with experience in object-oriented programming (OOP) principles. I am skilled in writing scalable and maintainable code, focusing on core concepts like classes, inheritance, and polymorphism. Additionally, I use Java for building simple applications and solving complex programming challenges.</p>
-              </div>
+        <div id="about" class="about">
+            <h1 class="heading">About me</h1>
+            <p class="para">I’m Pragadeeshwari — an AI enthusiast with a strong foundation in Python, data analysis, and algorithmic thinking. My journey into artificial intelligence began with a curiosity about how machines learn, and it quickly evolved into a passion for building solutions that can positively impact real-world problems.I enjoy working at the intersection of data, logic, and creativity — whether it’s through developing machine learning models, crafting insightful visualizations, or solving complex programming challenges. My current focus lies in deepening my expertise in Machine Learning, Deep Learning, and Data Science, while staying up-to-date with the latest research and tools.</p>
+            <div class="details">
+                <p><i class="fas fa-map-marker-alt"></i><br><strong>Location</strong><br> TamilNadu, India</p>
+                <p><i class="fas fa-graduation-cap"></i><br><strong>Education</strong><br> B.E in Computer Science</p>
+                <p><i class="fas fa-briefcase"></i><br><strong>Experience</strong><br> 1 Internship</p>
             </div>
-        </section>
-        <section id="cont">
-            <h1>Contact me</h1>
-            <p><a href="https://wa.me/6382022459">WhatsApp</a></p>
-            <p><a href="https://www.linkedin.com/in/<R R PRAGADEESHWARI>">LinkedIn</a></p>
-            <p><a href="tel:+6382022459">CallMe</a></p>
-        </section>
+        </div>
+        <div id='skills' class="skills">
+            <h1 class="heading">Skills</h1>
+            <div class="skills-container">
+                <div class="myskill">
+                    <i class="fas fa-code"></i> Programming
+                    <div class="skill">
+                        <p>Python</p>
+                        <p>Java</p>
+                        <p>C</p>
+                    </div>
+                </div>
+                <div class="myskill">
+                    <i class="fas fa-chart-bar"></i> Data Analysis
+                    <div class="skill">
+                        <p>Pandas</p>
+                        <p>Excel</p>
+                        <p>Machine Learning</p>
+                    </div>
+                </div>
+                <div class="myskill">
+                    <i class="fas fa-tools"></i> Tools
+                    <div class="skill">
+                        <p>Git</p>
+                        <p>Jupyter Notebook</p>
+                        <p>Excel</p>
+                        <p>Power BI</p>
+                        <p>VS Code</p>
+                    </div>                    
+                </div>
+                <div class="myskill">
+                    <i class="fas fa-globe"></i> Web Technologies
+                    <div class="skill">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>Java Script</p>
+                    </div>
+                </div>
+                <div class="myskill">
+                    <i class="fas fa-database"></i> Databases
+                    <div class="skill">
+                        <p>MySQL</p>
+                        <p>Oracle</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <h1 class="heading">Projects</h1>
+            <div class="project-container">
+                <div class="proj">
+                    <h3>Netflix Data Analysis</h3>
+                    <p>Explored and visualized trends in Netflix content using a real-world dataset. Identified patterns in content release years, genres, and ratings. Provided insights into how Netflix’s content library has evolved over time.</p>
+                    <div class="my-tool">
+                        <p>Python</p>
+                        <p>Pandas</p>
+                        <p>Data Visualization</p>
+                    </div>
+                    <p class="proj-link"><a href='https://github.com/Pragadeeshwari02/Netflix-Analysis'><i class="fas fa-up-right-from-square"></i> View Project</a></p>
+                </div>
+                <div class="proj">
+                    <h3>Simple Calculator</h3>
+                    <p>A functional calculator that performs basic arithmetic operations with a user-friendly interface. Designed to handle both integer and decimal inputs accurately. Helps demonstrate core logic building and interactive UI development.</p>
+                    <div class="my-tool">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>Java Script</p>
+                    </div>
+                    <p class="proj-link"><a href='https://Pragadeeshwari02.github.io/Calculator-'><i class="fas fa-up-right-from-square"></i> View Project</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="experience" id="experience">
+            <h1 class="heading">Experience</h1>
+            <div class="expr">
+                <h2>Python Development Intern</h2>
+                <h3><span class='blue'>Logritha Technologies</span></h3>
+                <p>Developed Python applications using CRUD operations and object-oriented programming principles. Automated data entry and reporting tasks using Excel, file handling, and SQL queries. Gained hands-on experience in scripting, modular coding, and integrating Python with external data sources.</p>
+            </div>
+        </div>
+        <div class="edu" id="education">
+            <div class="edu-cert">
+                <div class="education">
+                    <h1 class="heading">Education</h1>
+                    <div class="educ">
+                        <h2>B.E in Computer Science and Engineering</h2>
+                        <h3><span class='blue'>Anjalai Ammal Mahalingam Engineering College</span></h3>
+                        <p>2023 - 2027 (Expected) - CGPA 8.9</p>
+                    </div>
+                    <div class="educ">
+                        <h2>Higher Secondary</h2>
+                        <h3><span class='blue'>Girls' Christian Higher Secondary School</span></h3>
+                        <p>2021 - 2023 - Percentage 89%</p>
+                    </div>
+                </div>
+                <div class="certificate">
+                    <h1 class="heading">Certification</h1>
+                    <div class="cert">
+                        <i class="fas fa-certificate"></i><h2>Python Programming</h2>
+                        <h3><span class='blue'>GeeksforGeeks</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <h1 class="heading">Get In Touch</h1>
+            <div class="contact-container">
+                <div class="msg">
+                    <h2>Let's Connect</h2>
+                    <p class="top">I'm always open to discussing new opportunities, interesting projects, or just having a chat about data science and technology.</p>
+                    <p class="top"><i class="fas fa-envelope"></i> <a href="mailto:pragadeeshwarirajkumar@gmail.com"> Email me</a></p>
+                    <p><i class="fas fa-phone"></i></i> <a href="tel:+916382022459"> Call me</a></p>
+                    <p><i class="fab fa-linkedin"></i> <a href='https://www.linkedin.com/in/pragadeeshwari-r-r-017494301'> Connect on LinkedIn</a></p>
+                    <p><i class="fab fa-github"></i> <a href="https://github.com/Pragadeeshwari02"> View GitHub</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> TamilNadu, India</p>
+                </div>
+                <div class="form">
+                    <h2>Send a Message</h2>
+                    <label for="name">Name</label><span id="name_err"></span>
+                    <input type="text" id='name'>
+                    <label for="email">Email</label><span id="mail_err"></span>
+                    <input type="email" id="email">
+                    <label for="msg">Message</label>
+                    <textarea type="text" rows="5"></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <h2>Pragadeeshwari R R</h2>
+                <h3>Aspiring AI/ML Engineer</h3>
+                <div class="links">
+                    <p><a href="tel:+916382022459">Phone</a></p>
+                    <p><a href='https://www.linkedin.com/in/pragadeeshwari-r-r-017494301'>LinkedIn</a></p>
+                    <p><a href="https://github.com/Pragadeeshwari02">GitHub</a></p>
+                </div>
+                <p>&copy; 2025 Pragadeeshwari R R. All rights reserved.</p>
+            </div>
+        </footer>
     </main>
-	<footer class="foot">
-	    <h3>Pragadeeshwari</h3>
-	    <nav class="footnav">
-            <ul class="ftopul">
-                <li><a href="#">Home</a></li>
-                <li><a href="#abt">About</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#cont">Contact</a></li>
-            </ul>
-        </nav>
-        <p>&copy;2025 Pragadeeshwari. All rights reserved. </p>
-	</footer>
-	
 </body>
 </html>
-   
